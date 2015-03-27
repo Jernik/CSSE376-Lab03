@@ -21,6 +21,12 @@ public class PrimeTests {
 		a.add(2);
 		assertEquals(a, PrimeFactors.generate(2));
 	}
+	
+	@Test
+	public void testThree(){
+		assertEquals(Arrays.asList(3),PrimeFactors.generate(3));
+		
+	}
 	private List<Integer> list() {
 		// TODO Auto-generated method stub
 		return Arrays.asList();
