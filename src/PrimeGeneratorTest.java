@@ -35,11 +35,12 @@ public class PrimeGeneratorTest{
 	   public static Collection primeNumbers() {
 	      return Arrays.asList(new Object[][] {
 	    	 {1, new ArrayList()},
-	    	 //to be tested later
-	         //{ 2, Arrays.asList(2)},
-	        // { 3, Arrays.asList(3) },
-	        // { 4, Arrays.asList(2,2) },
-	       //  { 6, Arrays.asList(2,3) },
+	    	 { 2, Arrays.asList()},
+	        // { 3, Arrays.asList(2) },
+	        // { 4, Arrays.asList(2,3) },
+	       //  { 6, Arrays.asList(2,3,5) },
+		   //  { 13, Arrays.asList(2,3,5,7,11) },
+	    	 
 	      });
 	   }
 
