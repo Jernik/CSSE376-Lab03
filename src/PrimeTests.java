@@ -39,6 +39,24 @@ public class PrimeTests {
 		assertEquals(Arrays.asList(2,3),PrimeFactors.generate(6));
 		
 	}
+	
+	@Test
+	public void testEight(){
+		assertEquals(Arrays.asList(2,2,2),PrimeFactors.generate(8));
+		
+	}
+	
+	@Test
+	public void testNine(){
+		assertEquals(Arrays.asList(3,3),PrimeFactors.generate(9));
+		
+	}
+	
+	@Test
+	public void testBig(){
+		assertEquals(Arrays.asList(5,7,7, 1327),PrimeFactors.generate(325115));
+		
+	}
 	private List<Integer> list() {
 		// TODO Auto-generated method stub
 		return Arrays.asList();
