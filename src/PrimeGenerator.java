@@ -9,6 +9,8 @@ public class PrimeGenerator {
 		// TODO Auto-generated method stub
 		ArrayList<Integer> list=new ArrayList<Integer>();
 		switch(inputNumber){
+		case 6:
+			list.add(5);
 		case 5:
 		case 4:
 			list.add(3);
