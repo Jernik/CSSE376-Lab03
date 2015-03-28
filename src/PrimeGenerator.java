@@ -6,20 +6,15 @@ import java.util.List;
 public class PrimeGenerator {
 
 	public List generate(Integer inputNumber) {
-		// TODO Auto-generated method stub
-		ArrayList<Integer> list=new ArrayList<Integer>();
-		switch(inputNumber){
-		case 6:
-			list.add(5);
-		case 5:
-		case 4:
-			list.add(3);
-		case 3:
-			list.add(2);
-		case 2:
+		ArrayList<Integer> value = new ArrayList<Integer>();
+		PrimeFactors pf=new PrimeFactors();
+		for (int i =inputNumber-1;i >= 2; i --)
+		{
+			if (pf.generate(i).size()==1)
+				value.add(i);
 		}
-		list.sort(null);
-		return list;
-	}
+		value.sort(null);
+		return value;
 
-}
+		}
+	}
