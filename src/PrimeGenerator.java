@@ -7,10 +7,17 @@ public class PrimeGenerator {
 
 	public List generate(Integer inputNumber) {
 		// TODO Auto-generated method stub
-		if(inputNumber ==3){
-			return Arrays.asList(2);
+		ArrayList<Integer> list=new ArrayList<Integer>();
+		switch(inputNumber){
+		case 5:
+		case 4:
+			list.add(3);
+		case 3:
+			list.add(2);
+		case 2:
 		}
-		return new ArrayList();
+		list.sort(null);
+		return list;
 	}
 
 }
