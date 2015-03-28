@@ -41,7 +41,7 @@ public class PrimeGeneratorTest{
 	         { 6, Arrays.asList(2,3,5) },
 		     { 13, Arrays.asList(2,3,5,7,11) },
 
-		   //  { 50, Arrays.asList(2,3,5,7,11,13,17,19,23,29,31,37,41,43,47) },
+		     { 50, Arrays.asList(2,3,5,7,11,13,17,19,23,29,31,37,41,43,47) },
 	    	 
 	      });
 	   }
